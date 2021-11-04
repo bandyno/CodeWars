@@ -30,7 +30,7 @@ func TestDecodeFewDigits(t *testing.T)  {
 	// assert
 	if decimalNumber != result{
 		t.Errorf("func result was incorrect, got: %v, want: %v", result, decimalNumber)
-	} 
+	}
 
 	if decimalNumber1 != result1{
 		t.Errorf("func result was incorrect, got: %v, want: %v", result1, decimalNumber1)
